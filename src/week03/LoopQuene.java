@@ -1,5 +1,6 @@
 package week03;
 
+//循环队列的意义是为了解决出队时时间复杂度为O(n)的问题，使用循环队列之后时间复杂度变为O(1),不需要补齐空缺位置
 public class LoopQuene<E> implements Quene<E>{
 
     private E[] data;
